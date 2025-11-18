@@ -1,30 +1,30 @@
 class Term39 < Formula
   desc "Modern, retro-styled terminal multiplexer with a classic MS-DOS aesthetic"
   homepage "https://github.com/alejandroqh/term39"
-  version "0.8.5"
+  version "0.9.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/alejandroqh/term39/releases/download/v0.8.5/term39-0.8.5-macos-64bit-arm-binary.tar.gz"
-      sha256 "9dab7293a37b7e11261e5a3fec03441c40b5c05c09268a42cbf302cef6ce8dc2"
+      url "https://github.com/alejandroqh/term39/releases/download/v0.9.0/term39-0.9.0-macos-64bit-arm-binary.tar.gz"
+      sha256 "234f9e0c1fb06d97d03076dd04149fc4979062f67fe40370141606d035dc1402"
     end
 
     on_intel do
-      url "https://github.com/alejandroqh/term39/releases/download/v0.8.5/term39-0.8.5-macos-64bit-x86-binary.tar.gz"
-      sha256 "1ee9062d4986f401ba71714d919a0f08078af459ab0e3ddcd34a12c9f434ccae"
+      url "https://github.com/alejandroqh/term39/releases/download/v0.9.0/term39-0.9.0-macos-64bit-x86-binary.tar.gz"
+      sha256 "4e52b45e19509b53cdb04692fa91f5833d7384ae63e9c4010dbdfde790e9494b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/alejandroqh/term39/releases/download/v0.8.5/term39-0.8.5-linux-64bit-arm-binary.tar.gz"
-      sha256 "6f795ad28668b297566350aa8928e40dea6962a90e66ad37b26697338f5e09ac"
+      url "https://github.com/alejandroqh/term39/releases/download/v0.9.0/term39-0.9.0-linux-64bit-arm-binary.tar.gz"
+      sha256 "6cc622e806e8cde29b094c0e21c06467cece5d29c8930a3c590c55334d0fa649"
     end
 
     on_intel do
-      url "https://github.com/alejandroqh/term39/releases/download/v0.8.5/term39-0.8.5-linux-64bit-x86-binary.tar.gz"
-      sha256 "33a8459d045187254c90189d46e49e630d00268f0f50e98e25010677af0767f8"
+      url "https://github.com/alejandroqh/term39/releases/download/v0.9.0/term39-0.9.0-linux-64bit-x86-binary.tar.gz"
+      sha256 "73385955a5d601f1c06b4e33da29d72727a57c10183b863029395d380531ab89"
     end
   end
 
